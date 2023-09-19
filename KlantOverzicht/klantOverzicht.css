@@ -1,0 +1,278 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+h1 {
+  font-family: "verdana";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 84px;
+  border-bottom: 1px solid #ddd;
+}
+.title {
+  position: absolute;
+  height: 100%;
+  left: 17%;
+  top: 0%;
+  width: 80%;
+}
+.searchbar {
+  box-sizing: content-box;
+  position: absolute;
+  margin-top: 4%;
+  background: rgba(106, 112, 126, 0.01);
+  border: 2px solid #dddfe1;
+  border-radius: 13px;
+}
+.searchbar-input {
+  position: inherit;
+  margin-top: 2%;
+  margin-left: 15%;
+  background: rgba(106, 112, 126, 0.01);
+  outline: none;
+  border: none;
+  font-style: normal;
+}
+.fa-solid {
+  position: inherit;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.exporteer {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+
+  background: #1e8034;
+  border-radius: 5px;
+  border: none;
+  font-family: "verdana";
+  font-style: normal;
+  color: #fff;
+}
+.archiveerlijst {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+
+  background: #007BFF;
+  border-radius: 5px;
+  border: none;
+  font-family: "verdana";
+  font-style: normal;
+  color: #fff;
+}
+
+.toevoegen {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+
+  background: #f39200;
+  border-radius: 5px;
+  border: none;
+  font-family: "verdana";
+  font-style: normal;
+  color: #fff;
+}
+
+.bewerk {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+
+  background: #f39200;
+  border-radius: 5px;
+  border: none;
+  font-family: "verdana";
+  font-style: normal;
+  color: #fff;
+}
+.table-bewerk {
+  text-align: center;
+  background: #f39200;
+  border-radius: 5px;
+  border: none;
+  font-family: "verdana";
+  font-style: normal;
+  color: #fff;
+  margin-top: -1.5%;
+}
+
+.verwijderen {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+
+  background-color: #be3131;
+  border-radius: 5px;
+  border: none;
+  font-family: "verdana";
+  font-style: normal;
+  color: #fff;
+}
+
+.btn-group {
+  display: block;
+  margin-left: 60%;
+  margin-top: 4%;
+}
+
+table {
+  margin-top: 3%;
+  border-collapse: collapse;
+  font-style: normal;
+  font-weight: 600;
+}
+#table-left-border {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#table-right-border {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+th {
+  height: 2.6vw;
+  background: #b5b5cf;
+  text-align: left;
+}
+td {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 15px;
+  }
+  .searchbar {
+    width: 100px;
+    height: 15px;
+  }
+  .searchbar-input {
+    width: 85%;
+    font-size: 11px;
+    margin-top: -1%;
+  }
+  .fa-solid {
+    font-size: 10px;
+  }
+  .archiveerlijst {
+    width: 65px;
+    height: 15px;
+    font-size: 8px;
+  }
+  .exporteer {
+    width: 65px;
+    height: 15px;
+    font-size: 8px;
+  }
+  .toevoegen {
+    width: 65px;
+    height: 15px;
+    font-size: 8px;
+  }
+  .bewerk {
+    width: 55px;
+    height: 15px;
+    font-size: 8px;
+  }
+  .table-bewerk {
+    width: 40px;
+    height: 15px;
+    font-size: 8px;
+  }
+  .verwijderen {
+    width: 70px;
+    height: 15px;
+    font-size: 8px;
+  }
+  table {
+    font-size: 8px;
+    width: 94%;
+  }
+  td,
+  th {
+    padding-left: 3px;
+  }
+  .checkbox {
+    height: 8px;
+    width: 8px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+  .searchbar {
+    width: 26%;
+    height: 2.25vw;
+  }
+  .searchbar-input {
+    width: 85%;
+    font-size: 14px;
+  }
+  .fa-solid {
+    font-size: 1vw;
+  }
+  .exporteer {
+    width: 19%;
+    height: 2.55vw;
+    font-size: 0.95vw;
+  }
+  .archiveerlijst {
+    width: 19%;
+    height: 2.55vw;
+    font-size: 0.95vw;
+  }
+  .toevoegen {
+    width: 22%;
+    height: 2.55vw;
+    font-size: 0.95vw;
+  }
+  .bewerk {
+    width: 17%;
+    height: 2.55vw;
+    font-size: 0.95vw;
+  }
+  .table-bewerk {
+    width: 80%;
+    height: 2.55vw;
+    font-size: 0.95vw;
+  }
+  .verwijderen {
+    width: 24%;
+    height: 2.55vw;
+    font-size: 0.95vw;
+  }
+  table {
+    font-size: 12px;
+    width: 94%;
+  }
+  td,
+  th {
+    padding-left: 20px;
+  }
+  .checkbox {
+    height: 12px;
+    width: 12px;
+  }
+}
